@@ -1,0 +1,61 @@
+{
+  "defaultRoutines": [
+    {
+      "name": "Сон",
+      "allowedTo": "",
+      "durationMinutes": 0,
+      "end": "07:30",
+      "start": "23:30",
+      "days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "minimumBlockMinutes": 0,
+      "allowedFrom": ""
+    },
+    {
+      "name": "Питание",
+      "allowedTo": "22:00",
+      "durationMinutes": 180,
+      "end": "",
+      "start": "",
+      "days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "minimumBlockMinutes": 30,
+      "allowedFrom": "07:00"
+    }
+  ],
+  "logFile": "planner.log",
+  "defaultPlanningMode": "balanced",
+  "stateFile": "planner-state.json",
+  "planning": {
+    "maximumTaskBlockMinutes": 180,
+    "minimumTaskBlockMinutes": 30,
+    "deadlineReserveDays": 1,
+    "dayEnd": "23:30",
+    "dailyReserveMinutes": 60,
+    "maximumTaskHoursPerDay": 6,
+    "dayStart": "07:00",
+    "breakDurationMinutes": 20,
+    "breakAfterMinutes": 120
+  },
+  "priorities": {
+    "low": 10,
+    "normal": 20,
+    "high": 30,
+    "critical": 40
+  },
+  "reportDirectory": "reports"
+}

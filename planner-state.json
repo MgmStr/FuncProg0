@@ -1,0 +1,61 @@
+{
+  "dailyReserveHours": 1,
+  "unplaced": [],
+  "routines": [
+    {
+      "name": "Сон",
+      "startTime": "23:30",
+      "validTo": "",
+      "windowFrom": "",
+      "validFrom": "",
+      "endTime": "07:30",
+      "hours": 8,
+      "windowTo": "",
+      "mandatory": true,
+      "minBlock": 0,
+      "daysOfWeek": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Питание",
+      "startTime": "",
+      "validTo": "",
+      "windowFrom": "07:00",
+      "validFrom": "",
+      "endTime": "",
+      "hours": 3,
+      "windowTo": "22:00",
+      "mandatory": true,
+      "minBlock": 0,
+      "daysOfWeek": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "enabled": true
+    }
+  ],
+  "unplacedInfo": [],
+  "nextTaskNumber": 1,
+  "unavailableDays": [],
+  "tasks": [],
+  "periodStart": "",
+  "busy": [],
+  "plan": {},
+  "reserveBeforeDeadlineDays": 1,
+  "scheduled": {},
+  "periodEnd": "",
+  "planMode": "равномерное"
+}
